@@ -9,7 +9,8 @@ A truly minimal GRUB theme with interactive installer that lets you set font siz
 ```bash
 git clone https://github.com/aspy606/minimal-grub-theme.git
 cd minimal-grub-theme
-sudo bash ./Install.sh
+chmod +x Install.sh Uninstall.sh
+sudo ./Install.sh
 ```
 
 ## What `Install.sh` does
@@ -26,7 +27,7 @@ sudo bash ./Install.sh
 ## Uninstallation
 
 ```bash
-sudo bash ./Uninstall.sh
+sudo ./Uninstall.sh
 ```
 
 ## What `Uninstall.sh` does
