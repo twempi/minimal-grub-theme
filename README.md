@@ -3,17 +3,6 @@
 A minimal text-only GRUB theme with a safer installer, generated lightweight PF2
 font, NixOS module support, and a grey bottom countdown label.
 
-![minimal-grub-menu](https://github.com/user-attachments/assets/074b1f6a-ab50-41ca-98c9-c735febd95a8)
-
-## What Changed
-
-- The installer is non-interactive and does not write GRUB config unless
-  `--apply` is passed.
-- The font is generated during install/build instead of being edited in the repo.
-- The default generated font is named `custom`, matching `minimal/theme.txt`.
-- The default font range is Latin-focused to reduce GRUB rendering work.
-- The theme shows `Booting in N` in grey at the bottom of the GRUB screen.
-
 ## NixOS
 
 This repo exposes a flake package and a NixOS module. The module only configures
